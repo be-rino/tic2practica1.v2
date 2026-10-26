@@ -4,33 +4,77 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="./index.html">Inicio</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarScroll">
-            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./grados.html">Grados</a>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="./salidas.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Salidas
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="./salidasopciones/salida1.html">Carrera 1</a></li>
-                  <li><a class="dropdown-item" href="./salidasopciones/salida2.html">Carrera 2</a></li>
-                  <li><a class="dropdown-item" href="./salidasopciones/salida3.html">Carrera 3</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="./salidasopciones/comparativa.html">Comparacion</a></li>
-                </ul>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-      </nav>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Inicio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="./grados.html">Grados</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./salidas.html">Salidas</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th scope="col">Grados</th>
+        <th scope="col">UIE</th>
+        <th scope="col">EEI</th>
+        <th scope="col">UMON</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">¿Que es?</th>
+        <td>Ingenieria de la empresa</td>
+        <td>Ingenieria de Organizacion</td>
+        <td>Ingenieria de Organizacion</td>
+      </tr>
+      <tr>
+        <th scope="row">¿donde?</th>
+        <td>A Coruña</td>
+        <td>Vigo</td>
+        <td>Pais Vasco</td>
+      </tr>
+      <tr>
+        <th scope="row">Itinerario</th>
+        <td>John</td>
+        <td>Doe</td>
+        <td>@social</td>
+      </tr>
+      <tr>
+        <th scope="row">Acceso</th>
+        <td>John</td>
+        <td>Doe</td>
+        <td>@social</td>
+      </tr>
+      <tr>
+        <th scope="row">Tiempo de formacion</th>
+        <td>John</td>
+        <td>Doe</td>
+        <td>@social</td>
+      </tr>
+      <tr>
+        <th scope="row">Titulacion</th>
+        <td>John</td>
+        <td>Doe</td>
+        <td>@social</td>
+      </tr>
+      <tr>
+        <th scope="row">Coste estimado</th>
+        <td>John</td>
+        <td>Doe</td>
+        <td>@social</td>
+      </tr>
+    </tbody>
+  </table>
 </body>
